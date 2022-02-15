@@ -1,0 +1,13 @@
+body {
+	font-family:  Arial;
+}
+
+h1 {
+	text-align: center;
+}
+
+.circleRow {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
