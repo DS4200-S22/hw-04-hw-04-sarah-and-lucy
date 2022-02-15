@@ -2,13 +2,30 @@
 <html> 
 
 <head>
+    <link rel="stylesheet" href="stylesheet.css">
     <meta charset=utf-8/>
+    <title>hw-04</title>
 </head>
 
 
 <body>
 
+    <h1>Event Handling</h1>
 
+    <div class = "circleRow">
+    <svg id="circle1" width="200" height="200" onClick="circle1Clicked()">
+        <circle r=25% cx = 75px cy = 75px stroke="black" stroke-width="3" fill="pink"/>
+        <text id="counter" x=75px y=75px text-anchor="middle">0</text>
+    </svg>
+    <svg id="circle2" width="200" height="200" onMouseOver="circle2MouseOver()">
+        <circle r=25% cx = 75px cy = 75px stroke-width="3" fill="yellow"/>
+    </svg>
+    <svg id="circle3" width="200" height="200" onClick="circle3Clicked()">
+        <circle r=25% cx = 75px cy = 75px stroke="black" stroke-width="3" fill="purple" opacity = "1"/>
+    </svg>
+    </div>
+
+<script src = "main.js"></script> 
 </body>
 
 </html>
